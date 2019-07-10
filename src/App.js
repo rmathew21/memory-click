@@ -1,6 +1,16 @@
 import React from 'react';
+import Jcard from './components/Jcard';
 import logo from './logo.svg';
 import './App.css';
+
+
+class App extends Component {
+  state = {
+    message: "Click a Jordan to start",
+    score: 0,
+    highScore: 0
+  }
+}
 
 function App() {
   return (
