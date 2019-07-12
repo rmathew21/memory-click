@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Jcard from './components/Jcard/Jcard';
-import Scoreboard from "./components/Scoreboard/Scoreboard";
+import Scoreboard from "./components/Scoreboard/scoreboard";
 import './App.css';
 import shoes from "./shoes.json";
 
