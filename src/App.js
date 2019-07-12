@@ -36,11 +36,11 @@ render() {
   return (
     <div className="App">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Pupster</a>
+  <a class="navbar-brand" href="#">Click-a-J</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
+  {/* <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
         <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
@@ -52,15 +52,16 @@ render() {
         <a class="nav-link" href="#">Search</a>
       </li>
     </ul>
-  </div>
+  </div> */}
 </nav>
       <header className="App-header">
         <div className="jumbotron jumbotron-fluid">
+        <img src="https://mk0slamonlinensgt39k.kinstacdn.com/wp-content/uploads/2018/09/pj-1.jpg" class="tuck" alt="sneakerKing"/>
           <div className="container">
             <h1 className="display-4">Click on a pair of J's to start!</h1>
             <p className="lead">Keep clicking on a different pair to earn points. IF you choose the same pair twice, YOU LOSE and start fresh! First to 12 wins</p>
           </div>
-          <div className="scoreBoard">
+          <div className="Scoreboard">
             <Scoreboard score={this.state.score} highScore={this.state.highScore} />
           </div>
         </div>
@@ -79,7 +80,7 @@ render() {
           </div>
         </div>
         <footer className="container-fluid">
-          <p>Robin Mathew</p>
+          <p>Created by Robin Mathew</p>
         </footer>
     </div>
   );
