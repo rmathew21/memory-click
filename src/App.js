@@ -27,8 +27,19 @@ class App extends Component {
     // Filter this.state.shoes for shoes with an id not equal to the id being removed
     const shoes = this.state.shoes.filter(shoe => shoe.id !== id);
     console.log(shoes);
-    // Set this.state.friends equal to the new friends array
-    this.setState({ shoes });
+    
+    if(shoes.length !== 0) {
+      this.setState({shoes: this.state.shoes.filter(shoe => shoe.id !== id)});
+      this.setState({score: this.state.score +1});
+    } else {
+      this.setState({score: 0, shoes: shoes})
+      if(this.state.score > this.state.highScore) {
+        this.setState({highScore: this.state.score});
+      }
+    }
+    // Set this.state.shoes equal to the new shoes array
+    // this.setState({ shoes });
+    this.shuffle(shoes);
   };
 
 
