@@ -3,7 +3,7 @@ import "./Scoreboard.css";
 
 const Scoreboard = props => (
     <div className="col-12 score-board">
-        <p>Score: {props.score} | High Score: {props.highScore}</p>
+        <p>SCORE: {props.score} | HIGH SCORE: {props.highScore}</p>
     </div>
 );
 
