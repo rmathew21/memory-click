@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import Jcard from './components/Jcard/Jcard';
-import Wrapper from "./components/Wrapper";
-import Scoreboard from "./components/Scoreboard/scoreboard";
-import logo from './logo.svg';
+import Scoreboard from "./components/Scoreboard/Scoreboard";
 import './App.css';
 import shoes from "./shoes.json";
 
@@ -37,11 +35,25 @@ class App extends Component {
 render() {
   return (
     <div className="App">
-      <nav class="navbar bg-primary">
-        <div className="navbar-brand">
-          Bootstrap
-        </div>
-      </nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Pupster</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Discover</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Search</a>
+      </li>
+    </ul>
+  </div>
+</nav>
       <header className="App-header">
         <div className="jumbotron jumbotron-fluid">
           <div className="container">
