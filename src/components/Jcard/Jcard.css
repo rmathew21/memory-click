@@ -1,0 +1,15 @@
+.img-container {
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+}
+img-container img {
+    height: 250px;
+    width: 250px;
+    padding-bottom: 30px;
+}
+img-container :hover {
+    height: 150%;
+    width: 150%;
+    position: relative;
+}

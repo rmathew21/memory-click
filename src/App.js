@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Jcard from './components/Jcard';
+import Jcard from './components/Jcard/Jcard';
 import Wrapper from "./components/Wrapper";
 import Scoreboard from "./components/Scoreboard/scoreboard";
 import logo from './logo.svg';
@@ -28,6 +28,7 @@ class App extends Component {
   handleClick = id => {
     // Filter this.state.shoes for shoes with an id not equal to the id being removed
     const shoes = this.state.shoes.filter(shoe => shoe.id !== id);
+    console.log(shoes);
     // Set this.state.friends equal to the new friends array
     this.setState({ shoes });
   };
@@ -60,7 +61,7 @@ render() {
               handleClick={this.handleClick}
               id={image.id}
               name={image.name}
-              image={image.image}
+              src={image.image}
               />
             ))}
           </div>
