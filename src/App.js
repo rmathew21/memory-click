@@ -67,7 +67,7 @@ render() {
 </nav>
       <header className="App-header">
         <div className="jumbotron jumbotron-fluid">
-        <img src="https://mk0slamonlinensgt39k.kinstacdn.com/wp-content/uploads/2018/09/pj-1.jpg" class="tuck" alt="sneakerKing"/>
+        <img src="https://d1l5jyrrh5eluf.cloudfront.net/wp-content/uploads/2018/09/pjtuckerFINALVERSION.jpg" class="tuck" alt="sneakerKing"/>
           <div className="container">
             <h1 className="display-4">Click on a pair of J's to start!</h1>
             <p className="lead">Keep clicking on a different pair to earn points. IF you choose the same pair twice, YOU LOSE and start fresh! First to 12 wins</p>
