@@ -11,7 +11,7 @@ class Game extends Component {
     data,
     score: 0,
     topScore: 0
-  };
+  }; 
 
   componentDidMount() {
     this.setState({ data: this.shuffleData(this.state.data) });
