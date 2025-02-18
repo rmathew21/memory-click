@@ -1,5 +1,5 @@
 {
-  "homepage": "http://rmathew21.github.io/memory-click",
+  "homepage": ".",
   "name": "memory-click",
   "version": "0.1.0",
   "private": true,
@@ -34,4 +34,5 @@
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
+
 }
