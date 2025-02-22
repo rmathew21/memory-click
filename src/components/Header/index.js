@@ -5,7 +5,7 @@ function Header() {
   return (
     <header className="header">
       <h1>Click a Jordan Game!</h1>
-      <h2>Click on a shoe to earn points, but don't click on the same shoe twice!</h2>
+      <h2>Click on a shoe to earn points, but don't click the same J twice!</h2>
     </header>
   );
 }
